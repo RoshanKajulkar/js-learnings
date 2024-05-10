@@ -12,7 +12,14 @@ console.log(Boolean(""))       // false
 console.log(Boolean("roshan")) // true
 
 // string
-console.log(String(33))        // 33
+console.log(String(33))        // "33"
 console.log(String(null))      // "null"
 console.log(String(undefined)) // "undefined"
 console.log(String(true))      // "true"
+console.log(String(-33))       // "-33"
+
+// +
+console.log(1 + "2")           // 12
+console.log("1" + 2)           // 12
+console.log("1" + 2 + 2)       // 122
+console.log(1 + 2 + "2")       // 32
