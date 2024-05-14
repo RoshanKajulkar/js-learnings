@@ -4,3 +4,4 @@
 
 - symbol
 - singleton object (new Object())
+- hoisting
